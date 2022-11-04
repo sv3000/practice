@@ -8,7 +8,7 @@ spring:
     name: clinic-service 
 
   datasource:
-#    url: jdbc:mysql://localhost:3306/clinicServiceDataBase?createDatabaseIfNotExist=true
+# #  url: jdbc:mysql://localhost:3306/clinicServiceDataBase?createDatabaseIfNotExist=true
     url: jdbc:mysql://mysql3000.mysql.database.azure.com:3306/clinicServiceDataBase?createDatabaseIfNotExist=true
     username: mysql
     password: password@123
